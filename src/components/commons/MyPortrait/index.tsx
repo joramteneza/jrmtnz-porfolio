@@ -8,8 +8,8 @@ interface MyPortraitProps {
 
 const MyPortrait: React.FC<MyPortraitProps> = ({ className }) => {
   return (
-    <div className={`${className}`}>
-      <div className="relative flex justify-center rounded-3xl w-full h-72 mt-5 mb-10">
+    <div className={`${className} `}>
+      <div className="relative flex justify-center rounded-3xl w-full h-64 mt-5 mb-10">
         <Image
           className="rounded-3xl w-full"
           src={myportrait}

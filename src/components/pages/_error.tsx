@@ -13,7 +13,7 @@ function Page404() {
     <>
       {num404 !== "0000" && (
         <div className="flex flex-col items-center justify-center w-full min-h-screen animate-fadeIn">
-          <h1 className="font-bold text-white opacity-100 text-7xl font-monospace">{`{ error: ${num404} }`}</h1>
+          <h1 className="font-bold text-white opacity-100 text-7xl">{`{ error: ${num404} }`}</h1>
           <p className="flex items-center mt-8 text-xl text-fun-gray">
             Sorry, looks like that page is missing!&nbsp;&nbsp;
             <Link href="/">

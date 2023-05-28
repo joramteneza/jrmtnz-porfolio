@@ -15,6 +15,7 @@ const Contact = () => {
   return (
     <div className="h-screen w-full relative m-auto max-w-[1200px]">
       <SectionTitle title="CONTACT" display={{ icon: AiFillMail }} />
+      Let's Work Together!
     </div>
   );
 };

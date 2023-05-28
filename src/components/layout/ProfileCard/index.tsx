@@ -37,9 +37,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({ className }) => {
             </div>
             <MyPortrait className="" />
             <div className="flex flex-col items-center text-white justify-center mb-5">
-              <span className="text-xl font-extrabold">
-                Full Stack Developer
-              </span>
+              <span className="text-xl">Full Stack Developer</span>
               <span className="text-lg">Based in Makati City, PH</span>
             </div>
             <div className="flex items-start justify-center gap-4">
@@ -60,12 +58,15 @@ const ProfileCard: React.FC<ProfileCardProps> = ({ className }) => {
           <div className="my-5 p-2 h-full flex justify-center">
             <div className="grid sm:grid-cols-2 gap-5 items-center ">
               <Item title="3+" desc="years of experience" />
-              <Item title="3+" desc="years of experience" />
+              <Item title="6+" desc="projects completed" />
             </div>
           </div>
-          <div className="p-2 rounded-3xl bg-green-400 hover:bg-neutral-900 flex justify-center hover:text-green-400 hover:border hover:border-green-400 mt-5 lg:mt-0">
-            <Link href="" className="flex gap-1 items-center text-sm">
-              <AiOutlineMail size={18} /> <span>HIRE ME!</span>
+          <div className="flex justify-center items-center w-full text-white">
+            <Link
+              href=""
+              className="p-3 px-10 flex w-fit gap-1 items-center rounded-full text-sm bg-green-400 hover:bg-neutral-900 hover:text-green-400 hover:border hover:border-green-400 mt-5 lg:mt-0"
+            >
+              <AiOutlineMail size={18} /> <span>Contact me!</span>
             </Link>
           </div>
         </div>

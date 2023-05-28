@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
     <main className="relative">
-      <div className="h-screen snap-mandatory snap-y overflow-y-scroll mx-5 scrollbar-hide">
+      <div className="mx-5 lg:mx-20 h-screen snap-mandatory snap-y overflow-y-scroll scrollbar-hide">
         {sections.map((section) => (
           <section
             key={section.id}

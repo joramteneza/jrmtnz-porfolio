@@ -12,7 +12,7 @@ const Navigation: React.FC<NavigationProps> = ({
 }) => {
   return (
     <div
-      className={`${className} flex items-center justify-center absolute top-1/2 right-10 transform translate-y-[-50%] translate-x-[50%]`}
+      className={`${className} items-center justify-center absolute top-1/2 right-10 transform translate-y-[-50%] translate-x-[50%] hidden lg:flex`}
     >
       <div className="w-20 p-3 px-3">
         <div className="flex flex-col gap-5 items-center justify-center h-fit py-6 bg-neutral-900 border border-gray-500 rounded-full ">
