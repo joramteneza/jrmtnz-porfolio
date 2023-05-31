@@ -10,7 +10,10 @@ const Services = () => {
   return (
     <div className="h-screen relative m-auto max-w-[1200px] py-28 text-white">
       <SectionTitle title="Services" display={{ icon: MdLocalOffer }} />
-      <div className="flex flex-col md:grid sm:grid-cols-2 lg:flex gap-6 max-w-5xl px-0 sm:p-6 lg:p-10 h-full overflow-hidden overflow-y-auto scrollbar-hide">
+      <p className="text-3xl md:text-4xl lg:text-5xl pb-4 text-center">
+        My <span className="text-primary-100">Specializations</span>
+      </p>
+      <div className="flex flex-col md:grid sm:grid-cols-2 lg:flex gap-6 px-0 sm:p-6 lg:p-10 h-full min-h-96 overflow-hidden overflow-y-auto scrollbar-hide">
         <ServicesCard
           title="Web Design"
           desc="I build website go live with Framer, Webflow or WordPress"

@@ -15,13 +15,11 @@ const About = () => {
   return (
     <div className="h-screen w-full  relative m-auto max-w-[1200px] py-28 text-white">
       <SectionTitle title="About" display={{ icon: MdEmojiPeople }} />
+      <p className="text-3xl md:text-4xl lg:text-5xl pb-4 text-left">
+        Every great design begin with an even{" "}
+        <span className="text-primary-100">better story</span>
+      </p>
       <div className="text-4xl lg:text-6xl">
-        <div className="pb-5 f">
-          <p>
-            Every great design begin with an even{" "}
-            <span className="text-primary-100">better story</span>
-          </p>
-        </div>
         <p className="text-base leading-tight text-neutral-300 lg:w-4/5">
           I am an experienced freelance designer with a track record of
           collaborating with agencies, startups, and talented professionals.

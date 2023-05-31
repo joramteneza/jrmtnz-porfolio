@@ -20,8 +20,8 @@ const ListTimeline = ({
       <h3 className="flex items-center mb-8 text-sm  md:text-base font-normal text-dark-100">
         {company}
       </h3>
-      {responsibilities.map((res: string) => (
-        <div className="flex gap-2">
+      {responsibilities.map((res: string, i: number) => (
+        <div key={i} className="flex gap-2">
           •
           <p className="text-sm md:text-base font-normal text-dark-100">
             {res}

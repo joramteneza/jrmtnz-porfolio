@@ -3,7 +3,7 @@ import ProfileCard from "@/components/layout/ProfileCard";
 import { Inter } from "next/font/google";
 import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
-import "./globals.css";
+import "../../app/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 

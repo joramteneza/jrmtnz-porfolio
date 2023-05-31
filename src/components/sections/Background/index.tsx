@@ -10,6 +10,9 @@ const Background = () => {
   return (
     <div className="h-screen relative m-auto max-w-[1200px] py-28 text-white">
       <SectionTitle title="Background" display={{ icon: SiHtmlacademy }} />
+      <p className="text-3xl md:text-4xl lg:text-5xl pb-4 text-center">
+        Education & <span className="text-primary-100">Experience</span>
+      </p>
       <div className="max-w-5xl p-4 sm:p-6 lg:p-10 h-full overflow-hidden overflow-y-auto scrollbar-hide">
         <ol className="relative w-full lg:w-5/6">
           {experience.map(
