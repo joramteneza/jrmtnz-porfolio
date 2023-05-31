@@ -14,20 +14,20 @@ const Introduction = () => {
   };
 
   return (
-    <div className="h-screen relative  max-w-[1200px] flex flex-col items-center justify-center w-full py-20 m-auto text-center heroElem z-1">
+    <div className="h-screen relative max-w-[1200px] flex flex-col items-center justify-center w-full py-20 m-auto text-center heroElem z-1">
       <SectionTitle title="Introduction" display={{ icon: AiFillHome }} />
       <p className="mb-5 text-xl text-white">Hey, I'm Joram.</p>
       <h1 className="relative inline-block w-auto max-w-2xl mb-10 text-3xl tracking-tighter heroTitle lg:max-w-4xl md:text-5xl lg:text-6xl text-white">
-        I am <span className="text-green-400">passionate</span> and{" "}
-        <span className="text-green-400">skilled</span> in{" "}
-        <span className="text-green-400">building</span> and{" "}
-        <span className="text-green-400">designing</span> impactful online
+        I am <span className="text-primary-100">passionate</span> and{" "}
+        <span className="text-primary-100">skilled</span> in{" "}
+        <span className="text-primary-100">building</span> and{" "}
+        <span className="text-primary-100">designing</span> impactful online
         experiences.
       </h1>
 
       <Link href="/#about" legacyBehavior>
         <a onClick={scrollHandle}>
-          <div className="px-6 py-2 lg:px-10 lg:py-4 text-xl transition-colors border-2 rounded-full cursor-pointer whitespace-nowrap text-white border-white bg-bg hover:bg-green-400 hover:text-white hover:border-green-400">
+          <div className="px-6 py-2 lg:px-10 lg:py-4 text-xl transition-colors border-2 rounded-full cursor-pointer whitespace-nowrap text-white border-white bg-bg hover:bg-primary-100 hover:text-white hover:border-primary-100">
             Tell me more
           </div>
         </a>

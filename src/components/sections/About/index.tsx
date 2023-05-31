@@ -13,13 +13,13 @@ const About = () => {
   };
 
   return (
-    <div className="h-screen w-full  relative m-auto max-w-[1200px] py-24 text-white">
+    <div className="h-screen w-full  relative m-auto max-w-[1200px] py-28 text-white">
       <SectionTitle title="About" display={{ icon: MdEmojiPeople }} />
       <div className="text-4xl lg:text-6xl">
         <div className="pb-5 f">
           <p>
             Every great design begin with an even{" "}
-            <span className="text-blue-400">better story</span>
+            <span className="text-primary-100">better story</span>
           </p>
         </div>
         <p className="text-base leading-tight text-neutral-300 lg:w-4/5">

@@ -8,14 +8,10 @@ interface SectionTitleProps extends ComponentProps {
   };
 }
 
-const SectionTitle: React.FC<SectionTitleProps> = ({
-  title,
-  className,
-  display,
-}) => {
+const SectionTitle = ({ title, className, display }: SectionTitleProps) => {
   return (
     <div
-      className={`absolute top-10 left-0 ${className} flex rounded-3xl border border-white p-2 px-4 gap-2 text-white items-center text-xs justify-center hover:text-green-400 hover:border-green-400`}
+      className={`absolute top-10 left-0 ${className} flex rounded-3xl border border-white p-2 px-4 gap-2 text-white items-center text-xs justify-center hover:text-primary-100 hover:border-primary-100`}
     >
       {display.icon && <display.icon />}
       {title?.toUpperCase()}
