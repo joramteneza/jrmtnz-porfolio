@@ -3,6 +3,8 @@ import SectionTitle from "@/components/commons/SectionTitle";
 import Link from "next/link";
 import React from "react";
 import { AiFillHome } from "react-icons/ai";
+import logo from "../../../../public/favicon.ico";
+import Image from "next/image";
 
 const Introduction = () => {
   const scrollHandle = (e: any) => {
@@ -14,9 +16,22 @@ const Introduction = () => {
   };
 
   return (
-    <div className="h-screen relative max-w-[1200px] flex flex-col items-center justify-center w-full py-20 m-auto text-center heroElem z-1">
+    <div className="h-screen relative max-w-[1200px] flex flex-col items-center justify-center w-full py-20 m-auto text-center">
       <SectionTitle title="Introduction" display={{ icon: AiFillHome }} />
-      <p className="mb-5 text-xl text-white">Hey, I'm Joram.</p>
+      <div className="group">
+        <Image
+          className="rounded-3xl h-20 transition-transform duration-300 ease-in-out hover:rotate-[360deg] hover:scale-110"
+          src={logo}
+          alt="logo"
+          style={{
+            objectFit: "contain",
+            objectPosition: "center",
+          }}
+        />
+      </div>
+      <p className="mb-5 text-xl text-white">
+        Hey, I'm <span className="text-primary-100">Joram</span>.
+      </p>
       <h1 className="relative inline-block w-auto max-w-2xl mb-10 text-3xl tracking-tighter heroTitle lg:max-w-4xl md:text-5xl lg:text-6xl text-white">
         I am <span className="text-primary-100">passionate</span> and{" "}
         <span className="text-primary-100">skilled</span> in{" "}

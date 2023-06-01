@@ -8,6 +8,12 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+:root {
+  --height-md: 640px;
+  --height-lg: 1024px;
+  --height-xl: 1280px;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -23,18 +29,6 @@ body {
 
 .heroElem {
   animation: scaleDownIn 1.5s cubic-bezier(0.87, 0, 0.13, 1);
-}
-
-.heroElem .sqD:not(.squiggle-hero-pop1) {
-  animation: float 2s infinite ease-in-out;
-}
-.heroTitle .sqD {
-  @apply scale-[0.8] lg:scale-100;
-}
-
-/* All svg squiggle decorations */
-.sqD {
-  @apply absolute z-[-10];
 }
 
 section {

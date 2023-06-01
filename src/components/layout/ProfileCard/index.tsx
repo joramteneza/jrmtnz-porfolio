@@ -111,7 +111,7 @@ const ProfileCard = ({ className }: ProfileCardProps) => {
                     duration: 0.5,
                   }}
                 >
-                  <Item title="3+" desc="years of experience" />
+                  <Item title="6+" desc="projects completed" />
                 </motion.div>
               ) : (
                 <Item title="6+" desc="projects completed" />

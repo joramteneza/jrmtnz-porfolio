@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
 import "../../app/globals.css";
+import { useEffect } from "react";
+import { setHeightClasses } from "@/helpers/customHeightBreakpoints";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +17,14 @@ export default function RootLayout({
   const isDesktop = useMediaQuery({
     query: "(min-width: 1280px)",
   });
+  useEffect(() => {
+    setHeightClasses();
+    window.addEventListener("resize", setHeightClasses);
+
+    return () => {
+      window.removeEventListener("resize", setHeightClasses);
+    };
+  }, []);
 
   return (
     <html lang="en">

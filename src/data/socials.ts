@@ -21,12 +21,12 @@ export const socials: Socials[] = [
     icon: FaLinkedin,
   },
   {
-    link: "https://read.cv/kymngye",
+    link: "https://github.com/joramteneza",
     title: "GitHub",
     icon: FaGithub,
   },
   {
-    link: "https://www.instagram.com/kuyamongye/",
+    link: "https://read.cv/kymngye",
     title: "Read.cv",
     icon: RxReader,
     className: "rotate-12",
