@@ -30,7 +30,7 @@ const Introduction = () => {
         />
       </div>
       <p className="mb-5 text-xl text-white">
-        Hey, I'm <span className="text-primary-100">Joram</span>.
+        Hey, I&apos;m <span className="text-primary-100">Joram</span>.
       </p>
       <h1 className="relative inline-block w-auto max-w-2xl mb-10 text-3xl tracking-tighter heroTitle lg:max-w-4xl md:text-5xl lg:text-6xl text-white">
         I am <span className="text-primary-100">passionate</span> and{" "}

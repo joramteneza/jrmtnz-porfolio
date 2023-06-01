@@ -20,7 +20,7 @@ const Reveal = ({ children }: FramerMotionProps) => {
     if (isInView) {
       mainControls.start("visible");
     }
-  }, []);
+  }, [isInView, mainControls]);
 
   if (!isDesktop) return <>{children}</>;
 

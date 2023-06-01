@@ -48,7 +48,7 @@ const About = () => {
                 className="bg-primary-100 text-sm text-dark-900  hover:bg-dark-900 hover:text-primary-100 hover:border hover:border-primary-100 font-medium py-3 px-6 rounded-full"
                 onClick={handleViewResume}
               >
-                Here's my Resume
+                Here&apos;s my Resume
               </button>
             </div>
           </div>

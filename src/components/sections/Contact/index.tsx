@@ -95,7 +95,7 @@ const Contact = () => {
       <SectionTitle title="CONTACT" display={{ icon: AiFillMail }} />
       <div className="flex flex-col lg:items-center lg:justify-center gap-6 px-0 sm:p-6 lg:p-10 h-full min-h-96 overflow-hidden overflow-y-auto scrollbar-hide">
         <p className="text-3xl md:text-4xl lg:text-5xl pb-4 text-center">
-          Let's Work <span className="text-primary-100">Together!</span>
+          Let&apos;s Work <span className="text-primary-100">Together!</span>
         </p>
         <ContactForm />
         <div className={`flex items-start justify-center gap-4`}>

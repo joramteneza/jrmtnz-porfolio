@@ -4,7 +4,6 @@ import { AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
 import { socials } from "@/data/socials";
 import { Item } from "../../commons/ItemCard";
-import Typical from "react-typical";
 import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
 import MyPortrait from "@/components/commons/MyPortrait";
@@ -30,7 +29,7 @@ const ProfileCard = ({ className }: ProfileCardProps) => {
             <MyPortrait className="" />
             <div className="flex flex-col items-center text-white justify-center mb-5">
               <span className="text-xl font-semibold">
-                <Typical
+                {/* <Typical
                   steps={[
                     "Freelancer.",
                     1500,
@@ -43,7 +42,8 @@ const ProfileCard = ({ className }: ProfileCardProps) => {
                   ]}
                   loop={Infinity}
                   wrapper="h1"
-                />
+                /> */}
+                Full Stack Developer
               </span>
               <span className="text-lg">Based in Makati City, PH</span>
             </div>
