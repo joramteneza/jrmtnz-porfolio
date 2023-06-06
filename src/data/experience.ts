@@ -9,7 +9,7 @@ export interface Experience {
 
 const experience: Experience[] = [
   {
-    period: "July 2022 - May 2023",
+    period: "June 2022 - May 2023",
     company: "Ticketnation Philippines",
     position: "Full Stack Developer",
     responsibilities: [
@@ -27,13 +27,12 @@ const experience: Experience[] = [
     company: "Altev Technologies",
     position: "Mid Front End Developer",
     responsibilities: [
-      "Develop designs that are made by the UI/UX for the client.",
-      "Building of reusable codes and components for future use and easy updates.",
+      "Assigned to develop website of different clients.",
       "Investigation, checking logs and fixing bugs for the maintenance of the website.",
-      "Consumption of backend APIs.",
-      "Creation of CRUD endpoints.",
-      "Ensuring code quality and maintining coding standards, as well as participating in code reviews and sharing knowledge with other team members.",
-      "Working with PostgreSQL database, and integrating them into the front end application.",
+      "Consumption of backend APIs and creation of CRUD endpoints.",
+      "Collaborating with other developers, designers, and stakeholders to create new features and improve existing ones.",
+      "Ensuring code quality and maintaining coding standards, as well as participating in code reviews and sharing knowledge with other team members.",
+      "Working with databases, such as PostgreSQL, and integrating them into the front end application.",
       "Staying up-to-date with the latest trends and best practices in React.js and Node.js development and sharing knowledge with the team.",
     ],
   },
@@ -42,10 +41,12 @@ const experience: Experience[] = [
     company: "Pahiram.ph",
     position: "Front End Developer",
     responsibilities: [
-      "Handle connection between Node API and React JS.",
-      "Created inventory of items to keep track of all the items rented and availability admin dashboard.",
-      "Created user profile to have their portfolio's information client side.",
+      "Handle connection between Backend API and React JS.",
+      "Created inventory of items to keep track of all the items rented and availability in admin dashboard.",
+      "Created user profile to have their portfolio's information in client side.",
       "Created listing of Clients Item.",
+      "Develop the website by implementing user-friendly and resposive web interfaces.",
+      "Prioritize and manage bug fixes based on severity, impact, and project timelines.",
     ],
   },
 ];

@@ -120,14 +120,14 @@ const ProfileCard = ({ className }: ProfileCardProps) => {
           </div>
           <div className="flex justify-center items-center w-full pb-3">
             <Link
-              href=""
+              href="mailto:joram.teneza@gmail.com"
               className="p-3 px-10 flex w-fit gap-1 items-center font-normal rounded-full text-sm bg-primary-100 hover:bg-dark-900 hover:text-primary-100 hover:border hover:border-primary-100 mt-5 lg:mt-0"
             >
               <AiOutlineMail size={18} /> <span>Contact me!</span>
             </Link>
           </div>
         </div>
-      </div>
+      </div>  
     </div>
   );
 };
