@@ -57,7 +57,9 @@ const MyPortrait = ({ className }: MyPortraitProps) => {
 
         <div className="absolute bottom-24 -z-10 left-0 w-full h-[80px] bg-white transform -skew-y-6" />
         <div className="absolute left-1/2 -translate-x-1/2 -bottom-4 w-[80%] h-[50px] bg-primary-100 transform -skew-y-6 flex justify-center items-center">
-          <p className="font-bold text-center text-lg">Joram Teneza</p>
+          <p className="font-bold text-center text-white text-lg">
+            Joram Teneza
+          </p>
         </div>
       </div>
     </div>
