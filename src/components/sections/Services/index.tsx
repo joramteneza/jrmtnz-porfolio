@@ -14,11 +14,11 @@ const Services = () => {
         My <span className="text-primary-100">Specializations</span>
       </p>
       <div className="flex flex-col md:grid sm:grid-cols-2 lg:flex gap-6 px-0 sm:p-6 lg:p-10 h-full min-h-96 overflow-hidden overflow-y-auto scrollbar-hide">
-        <ServicesCard
+        {/* <ServicesCard
           title="Web Design"
           desc="I build website go live with Framer, Webflow or WordPress"
           display={{ icon: CgIfDesign }}
-        />
+        /> */}
         <ServicesCard
           title="Front End Web Development"
           desc="I build website with React JS, Next JS, JavaScript, TypeScript, HTML, and CSS."
